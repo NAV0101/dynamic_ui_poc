@@ -1,0 +1,185 @@
+{
+  "type": "scaffold",
+  "body": {
+    "type": "safeArea",
+    "child": {
+      "type": "column",
+      "children": [
+        {
+          "type": "image",
+          "src": "assets/images/dummy.png",
+          "imageType": "asset",
+          "fit": "fill"
+        },
+        {
+          "type": "padding",
+          "padding": {
+            "top": 20
+          },
+          "child": {
+            "type": "column",
+            "children": [
+              {
+                "type": "row",
+                "mainAxisAlignment": "center",
+                "children": [
+                  {
+                    "type": "text",
+                    "data": "ImagineGo ",
+                    "style": {
+                      "fontWeight": "w400",
+                      "fontSize": 30,
+                      "color": "#000000"
+                    }
+                  },
+                  {
+                    "type": "text",
+                    "data": "PRO",
+                    "style": {
+                      "fontWeight": "w700",
+                      "fontSize": 30,
+                      "color": "#000000"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "type": "padding",
+          "padding": {
+            "top": 15,
+            "bottom": 15,
+            "left": 50,
+            "right": 50
+          },
+          "child": {
+            "type": "column",
+            "children": [
+              {
+                "type": "padding",
+                "padding": {
+                  "top": 10,
+                  "bottom": 10
+                },
+                "child": {
+                  "type": "row",
+                  "mainAxisAlignment": "center",
+                  "children": [
+                    {
+                      "type": "expanded",
+                      "child": {
+                        "type": "text",
+                        "data": "No Daily Limit",
+                        "style": {
+                          "fontWeight": "w300",
+                          "fontSize": 16,
+                          "color": "#000000"
+                        }
+                      }
+                    },
+                    {
+                      "type": "expanded",
+                      "child": {
+                        "type": "text",
+                        "data": "50% OFF on AI Avatars",
+                        "style": {
+                          "fontWeight": "w300",
+                          "fontSize": 16,
+                          "color": "#000000"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "padding",
+                "padding": {
+                  "top": 10,
+                  "bottom": 10
+                },
+                "child": {
+                  "type": "row",
+                  "mainAxisAlignment": "center",
+                  "children": [
+                    {
+                      "type": "expanded",
+                      "child": {
+                        "type": "text",
+                        "data": "No Ads",
+                        "style": {
+                          "fontWeight": "w300",
+                          "fontSize": 16,
+                          "color": "#000000"
+                        }
+                      }
+                    },
+                    {
+                      "type": "expanded",
+                      "child": {
+                        "type": "text",
+                        "data": "HD Downloads",
+                        "style": {
+                          "fontWeight": "w300",
+                          "fontSize": 16,
+                          "color": "#000000"
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "type": "planComponent",
+                "productModel": [
+                  {
+                    "discountCardText": "Save 20%",
+                    "productTitle": "Weekly",
+                    "billingDuration": "Billed Weekly",
+                    "showWeeklyPrice": false,
+                    "weeklyPrice": "$38",
+                    "mainPrice": "$99",
+                    "discountedPrice": "discountedPrice",
+                    "packageType": "Weekly",
+                    "extraDiscount": 0,
+                    "discount": 10
+                  },
+                  {
+                    "discountCardText": "Save 30%",
+                    "productTitle": "Half Yearly",
+                    "billingDuration": "Billed Half Yearly",
+                    "showWeeklyPrice": false,
+                    "weeklyPrice": "$29",
+                    "mainPrice": "$999",
+                    "discountedPrice": "discountedPrice",
+                    "packageType": "SixMonths",
+                    "extraDiscount": 0,
+                    "discount": 10
+                  },
+                  {
+                    "discountCardText": "Save 40%",
+                    "productTitle": "Yearly",
+                    "billingDuration": "Billed Yearly",
+                    "showWeeklyPrice": false,
+                    "weeklyPrice": "$19",
+                    "mainPrice": "$999",
+                    "discountedPrice": "discountedPrice",
+                    "packageType": "Annual",
+                    "extraDiscount": 0,
+                    "discount": 10
+                  }
+                ]
+              },
+              {
+                "type": "paymentCTA",
+                "text": "Continue"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
